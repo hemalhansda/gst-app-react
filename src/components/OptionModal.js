@@ -40,7 +40,6 @@ export default class OptionModal extends React.Component {
         lists: prevState.lists.concat(list)
       };
     });
-
     //console.log(this.state.lists);
   }
 
@@ -70,6 +69,9 @@ export default class OptionModal extends React.Component {
     e.preventDefault();
     this.props.handleClearSelectedOp();
   }
+  earse = () => {
+    total = 0;
+  }
 
   render() {
     return (
@@ -98,7 +100,7 @@ export default class OptionModal extends React.Component {
               <button className="button">Calculate Total</button> &nbsp; &nbsp;
               <div className="add-option__input">
                 <p> TOTAL VALUE </p>
-                {this.state.totalp !== undefined && <p><b> Rs. {this.state.totalp}{total = 0}</b></p>}
+                {this.state.totalp !== undefined && <p><b> Rs. {this.state.totalp}{this.earse()}</b></p>}
               </div>
             </form>
           }
