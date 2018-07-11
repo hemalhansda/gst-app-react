@@ -25,7 +25,7 @@ After installation, follow the following commands given below in the terminal.
 yarn run build
 ```
 
-Then
+Then,
 
 ```
 yarn run dev-server
