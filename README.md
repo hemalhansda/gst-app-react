@@ -8,10 +8,16 @@ Run this on your local machine for development and testing purposes.
 
 ### Things you need to install
 
-First You need to install nodeJS, npm  and yarn on your machine.
+First You need to install git, nodeJS, npm, and yarn on your machine.
 Then Run the following commands in the terminal.
 
 Run this following code given below:
+
+```
+git clone https://github.com/hemalhansda/gst-app-react.git
+```
+
+After that continue with the command
 
 ```
 yarn install
