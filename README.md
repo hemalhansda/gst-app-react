@@ -1,6 +1,6 @@
 # GST Application
 
-This Application used to calculate the final MRP of the products.
+This Application is used to calculate the final MRP of the products.
 
 ## Getting Started
 
