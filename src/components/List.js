@@ -4,7 +4,7 @@ import Lists from './Lists';
 const List = (props) => (
   <div>
       {props.lists.length === 0 && <p className="widget__message">No Items in the list yet! </p>}
-      {props.lists.length !== 0 && <p className="widget__message">The Items are </p>}
+      {props.lists.length !== 0 && <p className="widget__message"><b>The Items are </b></p>}
       {
         props.lists.map((optioner, index) => (
           <Lists
